@@ -9,18 +9,18 @@ let score = 0;
 let gameover, gameover_img, restart, restart_img;
 
 function preload(){
-  trex_running = loadAnimation("Image/trex1.png", "Image/trex3.png", "Image/trex4.png");
-  trex_collided = loadAnimation("Image/trex_collided.png");
-  ground_img = loadImage("Image/ground2.png");
-  cloud_img = loadImage("Image/cloud.png");
-  obstaculo1 = loadImage("Image/obstacle1.png");
-  obstaculo2 = loadImage("Image/obstacle2.png");
-  obstaculo3 = loadImage("Image/obstacle3.png");
-  obstaculo4 = loadImage("Image/obstacle4.png");
-  obstaculo5 = loadImage("Image/obstacle5.png");
-  obstaculo6 = loadImage("Image/obstacle6.png");
-  gameover_img = loadImage("Image/gameOver.png");
-  restart_img = loadImage("Image/restart.png");
+  trex_running = loadAnimation("trex1.png", "trex3.png", "trex4.png");
+  trex_collided = loadAnimation("trex_collided.png");
+  ground_img = loadImage("ground2.png");
+  cloud_img = loadImage("cloud.png");
+  obstaculo1 = loadImage("obstacle1.png");
+  obstaculo2 = loadImage("obstacle2.png");
+  obstaculo3 = loadImage("obstacle3.png");
+  obstaculo4 = loadImage("obstacle4.png");
+  obstaculo5 = loadImage("obstacle5.png");
+  obstaculo6 = loadImage("obstacle6.png");
+  gameover_img = loadImage("gameOver.png");
+  restart_img = loadImage("restart.png");
 }
 
 function setup(){
