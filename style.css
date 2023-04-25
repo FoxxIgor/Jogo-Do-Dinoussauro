@@ -1,0 +1,14 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+canvas{
+  border: 3px solid rgb(77, 77, 77);
+}
+#criado{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
